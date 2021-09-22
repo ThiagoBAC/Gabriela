@@ -1,0 +1,159 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jomolhari&display=swap');
+@font-face {
+    font-family: 'Bright';
+    src: url('./Bright-Sunshine-Demo.ttf') format('opentype');
+    font-weight: normal;
+
+}
+
+:root {
+    --cor0:#EEEEEE;
+    --cor1:#E64B1C;
+    --cor2:#FF5722;
+    --cor3:#2D4059;
+    --cor4:#222831;
+
+    --fonte-destaque: 'Bright', cursive;
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--cor3);
+    font-family: 'Roboto', sans-serif;
+
+}
+
+main {
+    background-color: var(--cor0);
+    min-width: 250px;
+    max-width: 900px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 30px;
+    box-shadow: 0px 7px 7px 7px rgba(0, 0, 0, 0.438);
+    border-radius: 10px;    
+   
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor4));
+    background-color: var(--cor4);
+    min-height: 150px;
+    text-align: center;
+    padding: 40px;
+}
+
+header > h1 {
+    color: var(--cor0);
+    font-family: 'Jomolhari', serif;
+    margin-bottom: 5px;
+    font-size: 4em;
+    text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.801);
+    font-weight: normal;
+}
+
+header > span {
+        color:#F27C38;
+        font-family: var(--fonte-destaque);
+        font-size: 3em;
+        max-width: 500px;
+        margin: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.726);
+    
+}
+
+nav {
+    background-color: var(--cor4);
+    padding: 10px 10px 10px 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.438); 
+       
+    
+}
+
+
+nav > a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;   
+    font-weight: bold;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+
+}
+
+nav > a:hover {
+    background-color: var(--cor3);
+    color: var(--cor2);
+}
+
+
+h3 {
+    padding: 10px;
+    
+}
+
+p {
+    font-size: 1.2em;
+    text-align: justify;
+    padding: 10px;
+    
+    
+}
+
+li {
+    list-style: inside;
+    padding-left: 10px;
+    font-size: 1.2em;     
+    
+}
+
+section {    
+    margin-bottom: 30px;
+}
+
+#servadicionais {
+    font-size: 0.9em; 
+}
+
+
+div {
+    text-align: center;
+}
+
+div > a {
+    padding: 20px;
+    text-decoration: none;
+}
+
+div > a > img {
+    width: 80px;
+}
+
+div > a > img:hover {
+    opacity: 65%;
+}
+
+footer {
+    background-color: var(--cor4);
+    color: var(--cor0);    
+    font-size: 0.6em;
+    padding: 5px;
+
+}
+
+footer > p {
+    text-align: center;
+}
+    
