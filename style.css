@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Jomolhari&display=swap');
 @font-face {
     font-family: 'Bright';
-    src: url('./Bright-Sunshine-Demo.ttf') format('opentype');
+    src: url('fontes/Bright-Sunshine-Demo.ttf') format('opentype');
     font-weight: normal;
 
 }
