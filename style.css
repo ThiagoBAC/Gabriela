@@ -146,6 +146,18 @@ div > a > img:hover {
     opacity: 65%;
 }
 
+#portfolio {
+    display: inline-grid;
+    grid-template-columns: 290px 290px 290px;    
+    padding: 10px;
+    gap: 5px;
+}
+
+#portfolio > img {
+    width: 285px;
+    height: auto;
+}
+
 footer {
     background-color: var(--cor4);
     color: var(--cor0);    
